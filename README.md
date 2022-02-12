@@ -30,6 +30,6 @@ As of right now, you cannot add your own Client IDs. However, this will be allow
 2. stop trying to hack me u hacker  
 \- It is up to you on whether to download it or not. Feel free to view the source code and build it on your own.
 3. license?????  
-\- This project is licensed under the MIT license. In layman's terms, you can do anything with it apart from holding me responsible for any defects of the program.
+\- This project is licensed under the MIT license.
 4. i want pull request  
 \- Feel free to open a pull request!
