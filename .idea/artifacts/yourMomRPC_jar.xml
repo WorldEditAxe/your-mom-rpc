@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="yourMomRPC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/yourMomRPC_jar</output-path>
+    <root id="archive" name="yourMomRPC.jar">
+      <element id="module-output" name="yourMomRPC" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/JnCrMx/discord-game-sdk4j/v0.5.4/discord-game-sdk4j-v0.5.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

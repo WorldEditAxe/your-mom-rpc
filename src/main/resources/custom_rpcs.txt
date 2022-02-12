@@ -1,0 +1,11 @@
+# Custom RPC syntax:
+# # = Skip this line
+# <area name>|<thumbnail image asset id>|<thumbnail image highlight text>
+
+the bedroom|bedroom|Having lots of s-, um, I mean fun
+the bathroom|bathroom|Why in the world are you in the bathroom??
+the living room|living_room|Eating a lot of food
+your room|bedroom|Uhh... I think your mom need to get some help.
+where you're at, behind you|unknown_area_image|She's behind you.
+your sleep|unknown_area_image|She sees you when you're sleeping, she knows when you're awake
+???|unknown_area_image|I don't know what this is
