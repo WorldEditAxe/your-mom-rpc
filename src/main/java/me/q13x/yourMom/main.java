@@ -69,7 +69,9 @@ public class main {
 
         try {
             // Core.init(new File(ClassLoader.getSystemResource("discord_game_sdk.dll").toExternalForm()));
-            Core.init(downloadDiscordLibrary());
+            final File discordDll = downloadDiscordLibrary();
+            Core.init(discordDll);
+            discordDll.getParentFile().deleteOnExit();
         } catch (Exception err) {
             StringBuilder sb = new StringBuilder();
 
@@ -113,11 +115,6 @@ public class main {
         a.setState("In " + (areaName != null ? areaName : "unknown area"));
 
         a.timestamps().setStart(Instant.now());
-
-        if (showInfo) {
-            a.assets().setSmallImage("info_icon");
-            a.assets().setSmallText("very based | GitHub: WorldEditAxe/your-mom-rpc");
-        }
 
         a.assets().setLargeImage(thumbnail != null ? thumbnail : "unknown_area_image");
         a.assets().setLargeText(thumbnailText != null ? thumbnailText : "Um... hi! There's no thumbnail text for this area.");
